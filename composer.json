@@ -1,0 +1,35 @@
+{
+    "name": "VasoSulashvili/vSupport",
+    "description": "Tools",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "role": "Developer",
+            "name": "Vaso Sulashvili",
+            "email": "v.sulashvili@gmail.com",
+            "homepage": "https://github.com/VasoSulashvili"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "vSupport\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "vSupport\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.3"
+    },
+    "require-dev": {},
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist",
+        "optimize-autoloader": true
+    }
+}
